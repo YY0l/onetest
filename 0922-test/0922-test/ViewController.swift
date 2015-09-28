@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         
         }
                 NBLog("改了啊+++")
+         NBLog("在next分支中")
     }
 
     override func didReceiveMemoryWarning() {
