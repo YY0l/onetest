@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         
         }
                 NBLog("改了啊+++")
+        NBLog("可不可合并oneme")
     }
 
     override func didReceiveMemoryWarning() {
