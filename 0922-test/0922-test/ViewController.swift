@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        func NBLog(message: String, fileName: String = __FILE__, method: String = __FUNCTION__, line: Int = __LINE__) {
+            
+            print("<\((fileName as NSString).lastPathComponent)>[\(line)]-\(method):\(message)")
+            
+    
+        
+        }
+                NBLog("+++")
     }
 
     override func didReceiveMemoryWarning() {
