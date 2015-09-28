@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
         
         }
-                NBLog("+++")
+                NBLog("改了啊+++")
     }
 
     override func didReceiveMemoryWarning() {
